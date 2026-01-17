@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  server1:
+    build: ./my-express-app
+    container_name: hello-world-server
+    ports:
+      - "3001:3000"
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  server2:
+    build: ./new_server
+    container_name: data-api-server
+    ports:
+      - "4001:4000"
+    environment:
+      - PORT=4000
+      - NODE_ENV=production
+    restart: unless-stopped
