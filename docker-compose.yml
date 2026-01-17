@@ -5,9 +5,9 @@ services:
     build: ./my-express-app
     container_name: hello-world-server
     ports:
-      - "3001:3000"
+      - "4001:4000"
     environment:
-      - PORT=3000
+      - PORT=4000
       - NODE_ENV=production
     restart: unless-stopped
 
@@ -15,8 +15,8 @@ services:
     build: ./new_server
     container_name: data-api-server
     ports:
-      - "4001:4000"
+      - "5001:5000"
     environment:
-      - PORT=4000
+      - PORT=5000
       - NODE_ENV=production
     restart: unless-stopped
