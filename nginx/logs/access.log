@@ -1,0 +1,4 @@
+172.18.0.1 - - [17/Jan/2026:09:33:05 +0000] "GET /kushagra/api/hello HTTP/1.1" 200 33 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+172.18.0.1 - - [17/Jan/2026:09:33:05 +0000] "GET /favicon.ico HTTP/1.1" 404 122 "http://localhost/kushagra/api/hello" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+172.18.0.1 - - [17/Jan/2026:09:33:09 +0000] "GET //api/hello HTTP/1.1" 404 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
+172.18.0.1 - - [17/Jan/2026:09:33:12 +0000] "GET /api/hello HTTP/1.1" 404 122 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36"
